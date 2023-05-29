@@ -1,0 +1,484 @@
+*::-moz-selection {
+  background: rgba(10, 68, 132, 0.5);
+}*::selection {
+  background: rgba(10, 68, 132, 0.5);
+}
+
+body {
+  background: white;
+  font-family: "Rubik", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.5vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header h1 {
+  font-size: 2.5vw;
+}
+body header .middle-header {
+  gap: 2.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+body header .middle-header a {
+  text-decoration: none;
+  font-size: 1.3vw;
+  color: black;
+}
+body header .middle-header a:hover {
+  -webkit-text-decoration: underline 0.1px solid;
+          text-decoration: underline 0.1px solid;
+  text-underline-offset: 4px;
+}
+body header .login-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.1vw;
+}
+body header .login-header a {
+  text-decoration: none;
+}
+body header .login-header a button {
+  all: unset;
+}
+body header .login-header .sign-up {
+  color: black;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  padding: 1vw 1.2vw;
+  font-size: 1vw;
+}
+body header .login-header .sign-up:hover {
+  background: black;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body header .login-header .log-in {
+  background: black;
+  color: white;
+  padding: 1vw 1.8vw;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  font-size: 1vw;
+}
+body header .login-header .log-in:hover {
+  background: white;
+  color: black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-top: 0.5vw;
+}
+body main .main-text-side {
+  width: 44%;
+}
+body main .main-text-side h2 {
+  font-size: 4.3vw;
+}
+body main .main-text-side .p {
+  font-size: 1.2vw;
+}
+body main .main-text-side .main-text-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .main-text-side .main-text-button a {
+  text-decoration: none;
+}
+body main .main-text-side .main-text-button a button {
+  all: unset;
+}
+body main .main-text-side .main-text-button .button-main {
+  background: black;
+  color: white;
+  padding: 15px 1.5vw;
+  font-size: 1vw;
+}
+body main .main-text-side .main-text-button .a-underline {
+  color: black;
+  -webkit-text-decoration: underline solid 0.1px black;
+          text-decoration: underline solid 0.1px black;
+  text-underline-offset: 5px;
+  font-size: 1.5vw;
+}
+body main .main-text-side .main-text-button .before-underline {
+  background: rgba(132, 41, 104, 0.4);
+  width: 10vw;
+  height: 1.2vw;
+  margin-top: -2vw;
+  z-index: 1000;
+  position: absolute;
+}
+body main .main-text-side .main-text-last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4vw;
+  margin-top: 4vw;
+}
+body main .main-text-side .main-text-last .plus-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+body main .main-text-side .main-text-last .plus-number h3, body main .main-text-side .main-text-last .plus-number p {
+  all: unset;
+}
+body main .main-text-side .main-text-last .plus-number h3 {
+  font-size: 2vw;
+}
+body main .main-text-side .main-text-last .plus-number p {
+  font-size: 1vw;
+}
+body main .main-text-side .main-text-last .middle-stick {
+  height: 5vw;
+  width: 1px;
+  background: black;
+}
+body main .main-img-side {
+  width: 44%;
+}
+body main .main-img-side img {
+  width: 45vw;
+  max-width: 100%;
+}
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6.5vw;
+}
+body footer .choose-option {
+  width: 22.5%;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 12.5px 2px rgba(128, 128, 128, 0.6);
+          box-shadow: 1px 1px 12.5px 2px rgba(128, 128, 128, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding: 10px 12.5px;
+  margin-bottom: 0.5vw;
+}
+body footer .choose-option .img-footer {
+  width: 100%;
+  -webkit-box-shadow: 1px 10px 12.5px 2px rgba(128, 128, 128, 0.6);
+          box-shadow: 1px 10px 12.5px 2px rgba(128, 128, 128, 0.6);
+  border-radius: 25px;
+  margin-bottom: 1vw;
+}
+body footer .choose-option .img-footer img {
+  width: 100%;
+  cursor: pointer;
+}
+body footer .choose-option .analytics-vw h3 {
+  font-size: 1.3vw;
+}
+body footer .choose-option .analytics-vw p, body footer .choose-option .analytics-vw a {
+  font-size: 1vw;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 4vw;
+  }
+  body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    place-content: center;
+  }
+  body main .main-text-side {
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    place-content: center;
+  }
+  body main .main-text-side div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  body main .main-img-side {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body main .main-img-side img {
+    margin: 0 auto;
+    width: 60vw;
+  }
+}
+@media (max-width: 750px) {
+  body footer {
+    gap: 5vw;
+  }
+  body footer .choose-option {
+    width: 30%;
+  }
+}
+@media (max-width: 450px) {
+  body footer {
+    gap: 5vw;
+  }
+  body footer .choose-option {
+    width: 60%;
+  }
+}
+.before-h2 {
+  background: rgba(236, 101, 31, 0.4);
+  width: 30vw;
+  height: 1.9vw;
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: 5vw;
+}
+
+:root {
+  --green: #B66170;
+  --blue: #267C8E;
+}
+
+@-webkit-keyframes float {
+  from, to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  25% {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  50% {
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+  }
+}
+
+@keyframes float {
+  from, to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  25% {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  50% {
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+  }
+}
+@-webkit-keyframes background-pan {
+  from {
+    background-position: 1000% center;
+  }
+  to {
+    background-position: 0% center;
+  }
+}
+@keyframes background-pan {
+  from {
+    background-position: 1000% center;
+  }
+  to {
+    background-position: 0% center;
+  }
+}
+.fancy span {
+  display: inline-block;
+}
+
+.fancy > .outer {
+  -webkit-transition: -webkit-transform 350ms ease;
+  transition: -webkit-transform 350ms ease;
+  transition: transform 350ms ease;
+  transition: transform 350ms ease, -webkit-transform 350ms ease;
+}
+
+.fancy:hover > .outer {
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+}
+
+.fancy:hover > .outer > .inner {
+  -webkit-animation: float 5s ease infinite;
+          animation: float 5s ease infinite;
+}
+
+.fancy:hover > .outer > .inner > .letter {
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, from(var(--blue)), color-stop(var(--green)), to(var(--blue)));
+  background: linear-gradient(to right, var(--blue), var(--green), var(--blue));
+  background-size: 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: background-pan 150s linear infinite;
+          animation: background-pan 150s linear infinite;
+}
+
+.fancy:hover > .outer:nth-child(1) {
+  -webkit-transform: translate(-80%, 60%) rotate(8deg);
+          transform: translate(-80%, 60%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(2) {
+  -webkit-transform: translate(-40%, 20%) rotate(4deg);
+          transform: translate(-40%, 20%) rotate(4deg);
+}
+
+.fancy:hover > .outer:nth-child(3) {
+  -webkit-transform: translate(-10%, 60%) rotate(-6deg);
+          transform: translate(-10%, 60%) rotate(-6deg);
+}
+
+.fancy:hover > .outer:nth-child(4) {
+  -webkit-transform: translate(0%, 8%) rotate(-8deg);
+          transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.fancy:hover > .outer:nth-child(5) {
+  -webkit-transform: translate(0%, -20%) rotate(5deg);
+          transform: translate(0%, -20%) rotate(5deg);
+}
+
+.fancy:hover > .outer:nth-child(6) {
+  -webkit-transform: translate(0%, 20%) rotate(-3deg);
+          transform: translate(0%, 20%) rotate(-3deg);
+}
+
+.fancy:hover > .outer:nth-child(7) {
+  -webkit-transform: translate(0%, -40%) rotate(-5deg);
+          transform: translate(0%, -40%) rotate(-5deg);
+}
+
+.fancy:hover > .outer:nth-child(8) {
+  -webkit-transform: translate(0%, 15%) rotate(10deg);
+          transform: translate(0%, 15%) rotate(10deg);
+}
+
+.fancy:hover > .outer:nth-child(9) {
+  -webkit-transform: translate(0%, -50%) rotate(8deg);
+          transform: translate(0%, -50%) rotate(8deg);
+}
+
+.fancy:hover > .outer:nth-child(10) {
+  -webkit-transform: translate(0%, 15%) rotate(-6deg);
+          transform: translate(0%, 15%) rotate(-6deg);
+}
+
+.fancy:hover > .outer:nth-child(11) {
+  -webkit-transform: translate(50%, -10%) rotate(-3deg);
+          transform: translate(50%, -10%) rotate(-3deg);
+}
+
+.fancy:hover > .outer:nth-child(12) {
+  -webkit-transform: translate(120%, -30%) rotate(-10deg);
+          transform: translate(120%, -30%) rotate(-10deg);
+}
